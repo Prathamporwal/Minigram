@@ -61,13 +61,31 @@ login, posts, likes, comments, follow, feed, and history.
 ---
 
 ## Project Structure
+## 📁 Project Structure
 
-instagram mini backed/
-├── server.js
-├── db.js
+instagram-mini-backend/
 ├── frontend/
-├── README.md
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   ├── auth.js
+│   │   ├── create.js
+│   │   ├── feed.js
+│   │   ├── history.js
+│   │   └── profile.js
+│   ├── create.html
+│   ├── feed.html
+│   ├── history.html
+│   ├── login.html
+│   ├── profile.html
+│   └── signup.html
+├── .gitignore
+├── db.js
+├── server.js
+├── package.json
+├── package-lock.json
 ├── Instagram_mini_postman_collection.json
+└── README.md
 
 ---
 
