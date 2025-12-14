@@ -3,9 +3,6 @@
 MiniGram is a mini Instagram-style web application created using
 Node.js, Express, MySQL, and simple HTML, CSS, and JavaScript.
 
-This project was built as part of an institutional assignment to
-demonstrate backend development, database relationships, and basic
-frontend integration.
 
 ---
 
