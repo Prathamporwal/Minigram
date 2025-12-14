@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="feed.html">Feed</a>
+  <a href="history.html">Recently Viewed</a>
+  <a href="login.html">Logout</a>
+</nav>
+
+<div class="container">
+  <img id="profilePic" src="" style="width:120px;border-radius:50%;margin-bottom:10px;">
+  
+  <input id="photoInput" placeholder="Profile photo URL">
+  <button onclick="updatePhoto()">Update Photo</button>
+
+  <h2 id="username"></h2>
+  <p id="email"></p>
+
+  <p>
+    <b>Posts:</b> <span id="posts"></span> |
+    <b>Followers:</b> <span id="followers"></span> |
+    <b>Following:</b> <span id="following"></span>
+  </p>
+
+  <h3 style="margin-top:20px;">My Posts</h3>
+  <div id="myPosts"></div>
+</div>
+
+<script src="js/profile.js"></script>
+</body>
+</html>

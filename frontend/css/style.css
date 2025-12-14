@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #121212;
+  color: #fff;
+}
+
+nav {
+  background: #1f1f1f;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.container {
+  width: 400px;
+  margin: 40px auto;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+button {
+  background: #3897f0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.post {
+  background: #1f1f1f;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.auth-box {
+  background: #1e1e1e;
+  padding: 30px;
+  width: 280px;
+  border-radius: 10px;
+}
+
+.auth-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #3797f0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.switch {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: #3ea6ff;
+  text-decoration: none;
+}
+
